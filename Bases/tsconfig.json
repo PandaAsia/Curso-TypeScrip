@@ -107,5 +107,5 @@
   },
   "exclude": ["objetos/Nombrearchivo.ts"],
   //"include": ["objetos/Nombrearchivo.ts"]
-  "include": ["clases"]
+  "include": ["interfaces"]
 }

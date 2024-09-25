@@ -30,5 +30,5 @@
   instancia1.mostrarMensaje(); // Este es un Singleton.
 
   // Comprobamos que ambas referencias apuntan a la misma instancia
-  console.log(instancia1 === instancia2); // true
+  //console.log(instancia1 === instancia2); // true
 })();
