@@ -1,4 +1,5 @@
 // import Hero from "./classes/hero";
+import { pokemon } from "./decoradores/pokemon-class";
 import {
   genericFunction,
   genericFunction2,
@@ -27,6 +28,11 @@ import { waifu } from "./interface/waifu";
 
 // console.log(genericFunction<waifu>(shana).boob);
 
-getPokemon(1)
-  .then((resp) => console.log(resp))
-  .catch((error) => console.group(error));
+// getPokemon(1)
+//   .then((resp) => console.log(resp))
+//   .catch((error) => console.group(error));
+//---------------------------------------------------------------------------------
+
+const charmander = new pokemon("CHARMANDER");
+
+console.log(charmander);
