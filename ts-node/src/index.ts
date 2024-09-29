@@ -35,4 +35,4 @@ import { waifu } from "./interface/waifu";
 
 const charmander = new pokemon("CHARMANDER");
 
-console.log(charmander);
+console.log(charmander.savepokemon(50));
